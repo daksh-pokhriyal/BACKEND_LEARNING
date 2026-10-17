@@ -5,18 +5,11 @@
 
 
 const app= require('./app');
-const mongoose= require('mongoose');
 
 
-function connectToDb()
-{
-    mongoose.connect("mongodb+srv://itisdakshpokhriyal_db_user:DrNGtbD3HIRBdjp0@cluster0.i6kdsem.mongodb.net/database1")
-    .then(()=>{
-        console.log('Database connected successfully');
-    })
-} // server ko cluster me present database se connect krne ka function
 
-connectToDb();
+
+
 
 const notes=[
    
