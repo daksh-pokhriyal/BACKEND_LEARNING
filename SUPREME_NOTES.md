@@ -15,6 +15,7 @@
 8. mongoDB compass pe jake cluster banao (copy connection string)
 
 9. but use nodemon -> npx nodemon server.js
+10. make .env file and install dotenv for accessing the keys
 
 # app.js -> for creating server and middleware
 # server.js -> for starting the server
@@ -28,6 +29,9 @@ require('dotenv').config({
     path: path.resolve(__dirname, '../../.env')
 });
 
+# har ek kaam ke lie alag folder banta hai , jese config,models,routes etc..
+
+# routes se different routes ke lie api bna skte ho , so directly app.js me mat banao api's and routes folder me banao and app.js me un api's use kro 
 
 
 

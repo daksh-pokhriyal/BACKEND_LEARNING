@@ -1,3 +1,38 @@
+# JWT - commonly used for authentication and authorization
+
+# JWT- json web token
+# website - JWTsecrets.com
+
+# use package - jsonwebtoken
+# paste JWT secret key in .env 
+
+# create token using user data and jwt secret key
+# use website json decode to find the data inside token
+
+# what is JWT
+1. user post api se create user send karega 
+2. server userdata and jwt secret key se token banayega
+3. and now server token user ko de dega 
+4. now har ek user ki request me wo token bhi hoga 
+5. we do this by cookies , cookies storage ka access server pe hota hai i.e. server cookies se kuch bhi read and write kr skta hai !
+6. jab bhi token banega we set it in cookies , use package - cookie-parser
+
+
+
+# Structure of JWT
+A JWT consists of three parts separated by dots (.)
+HEADER.PAYLOAD.SIGNATURE
+
+
+For example, a JWT looks like:
+xxxxx.yyyyy.zzzzz
+
+
+
+
+
+
+
 
 # 1. Authentication
 
@@ -157,3 +192,8 @@ Examples:
 
 ##
 Displaying Authentication and authorization.md.
+
+
+
+
+
